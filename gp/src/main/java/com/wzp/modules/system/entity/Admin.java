@@ -16,11 +16,11 @@ import java.io.Serializable;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Administrators implements Serializable {
+public class Admin implements Serializable {
     @TableId
-    private int user_id;//员工编号
+    private int id;//员工编号
 
-    private String admin_name;//用户名
+    private String adminName;//用户名
 
-    private String admin_password;//密码
+    private String adminPassword;//密码
 }

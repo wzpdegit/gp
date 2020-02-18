@@ -171,9 +171,8 @@ public class UserServiceImpl implements UserService{
     **/
     @Override
     public IPage<User> page(IPage<User> page, Wrapper<User> queryWrapper) {
-        IPage<User> page1 = userMapper.selectPage(page,queryWrapper);
-        System.out.println(page1.getRecords().toString());
-        return page1;
+        userMapper.selectPage(page,queryWrapper);
+        return page;
     }
 
     @Override
