@@ -18,9 +18,9 @@ import java.io.Serializable;
 @AllArgsConstructor
 public class Department implements Serializable {
     @TableId
-    private int department_id;
+    private String departmentId;//部门id
 
-    private String department_name;
+    private String departmentName;//部门名字
 
-    private String department_manager;
+    private String departmentManager;//部门经理
 }

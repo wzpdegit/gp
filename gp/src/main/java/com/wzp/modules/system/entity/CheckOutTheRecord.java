@@ -20,7 +20,7 @@ import java.util.Date;
 @AllArgsConstructor
 public class CheckOutTheRecord implements Serializable {
     @TableId
-    private int user_id;
+    private String id;
 
     private String lengthOfShift;//班次时间(早班,晚班,夜班)
 

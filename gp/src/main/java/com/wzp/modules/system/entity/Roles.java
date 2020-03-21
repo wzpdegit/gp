@@ -18,5 +18,5 @@ public class Roles {
     @TableId
     private int id;
 
-    private String roles;
+    private String roles;//权限
 }
