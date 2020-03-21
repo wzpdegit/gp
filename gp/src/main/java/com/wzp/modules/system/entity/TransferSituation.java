@@ -22,7 +22,7 @@ import java.util.Date;
 public class TransferSituation implements Serializable {
 
     @TableId
-    private int user_id;//员工号
+    private String id;//员工号
 
     private String postBeforeTransfer;//调动前职务
 

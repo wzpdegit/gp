@@ -20,7 +20,7 @@ import java.util.Date;
 @AllArgsConstructor
 public class SignInRecord implements Serializable {
     @TableId
-    private int user_id;//员工号
+    private String id;//员工号
 
     private String lengthOfShift;//班次时间(早班,晚班,夜班)
 
